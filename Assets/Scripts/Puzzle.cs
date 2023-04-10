@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using Unity.VisualScripting;
 using UnityEngine;
 
 /// <summary>
@@ -13,11 +14,16 @@ public class Puzzle : MonoBehaviour
 
     public int Point;
     public bool IsDone;
-
+    public int MaxPoint;
+    public int Number;
+    
 
     private Question selectedQuestion;
 
-    public event EventHandler<AnswerChoice> OnAttempt;
+    public event Action<Puzzle> OnSolve;
+    public event Action<Puzzle> OnFailed;
+
+    public event Action OnSelected;
 
     /// <summary>
     /// Selects the random question.
@@ -27,27 +33,34 @@ public class Puzzle : MonoBehaviour
         selectedQuestion = availableQuestions[UnityEngine.Random.Range(0, availableQuestions.Count())];
     }
 
-    /// <summary>
-    /// Gets the selected question.
-    /// </summary>
-    /// <returns></returns>
+    public void Select()
+    {
+        SelectRandomQuestion();
+        OnSelected?.Invoke();
+    }
+
     public Question GetSelectedQuestion()
     {
         if (selectedQuestion == null)
         {
-            SelectRandomQuestion();
+            Select();
         }
         return selectedQuestion;
     }
 
-    public bool CheckAnswer(AnswerChoice answer)
+    public bool Attempt(AnswerChoice choice)
     {
-        if (selectedQuestion != null)
+        if (selectedQuestion.IsCorrect(choice))
         {
-            return answer.IsValid;
+            OnSolve?.Invoke(this);
+            return true;
+        }
+        else
+        {
+            OnFailed?.Invoke(this);
+            return false;
         }
 
-        return false;
     }
 
     /// <summary>
@@ -56,7 +69,9 @@ public class Puzzle : MonoBehaviour
     /// <param name="controller">The controller.</param>
     public virtual void AttachController(GameController controller)
     {
-        OnAttempt += controller.Puzzle_OnAttempt;
+        OnSolve += controller.OnSolve;
+        OnFailed += controller.OnFailed;
+        OnSelected += () => controller.SelectPuzzle(this);      
     }
 
     /// <summary>
@@ -65,6 +80,8 @@ public class Puzzle : MonoBehaviour
     /// <param name="controller">The controller.</param>
     public virtual void DetachController(GameController controller)
     {
-        OnAttempt -= controller.Puzzle_OnAttempt;
+        OnSolve -= controller.OnSolve;
+        OnFailed -= controller.OnFailed;
+        OnSelected -= () => controller.SelectPuzzle(this);
     }
 }
