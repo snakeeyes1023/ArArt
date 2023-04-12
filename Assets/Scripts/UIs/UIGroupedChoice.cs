@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -8,7 +9,7 @@ public class UIGroupedChoice : MonoBehaviour
     [SerializeField] private GameObject radioButtonPrefab;
 
     private List<Toggle> radioButtons = new List<Toggle>();
-    private AnswerChoice[] answerChoices;
+    private IEnumerable<AnswerChoice> answerChoices;
 
 
     private void OnRadioButtonValueChanged(Toggle changedRadioButton)
@@ -31,7 +32,8 @@ public class UIGroupedChoice : MonoBehaviour
         {
             if (radioButton.isOn)
             {
-                return answerChoices[radioButtons.IndexOf(radioButton)];
+                int index = radioButtons.IndexOf(radioButton);
+                return answerChoices.ElementAt(index);
             }
         }
 
@@ -42,7 +44,7 @@ public class UIGroupedChoice : MonoBehaviour
     {
         ClearContext();
 
-        answerChoices = question.Choices;
+        answerChoices = question.GetChoices();
 
         foreach (AnswerChoice answerChoice in answerChoices)
         {

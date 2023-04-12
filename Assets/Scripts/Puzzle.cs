@@ -71,7 +71,6 @@ public class Puzzle : MonoBehaviour
     {
         OnSolve += controller.OnSolve;
         OnFailed += controller.OnFailed;
-        OnSelected += () => controller.SelectPuzzle(this);      
     }
 
     /// <summary>
@@ -82,6 +81,5 @@ public class Puzzle : MonoBehaviour
     {
         OnSolve -= controller.OnSolve;
         OnFailed -= controller.OnFailed;
-        OnSelected -= () => controller.SelectPuzzle(this);
     }
 }

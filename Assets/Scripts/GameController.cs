@@ -10,8 +10,6 @@ public class GameController : MonoBehaviour
     [SerializeField]
     private List<Puzzle> puzzles;
 
-    private Puzzle currentPuzzle;
-
     private int _currentScore;
     public int CurrentScore
     {
@@ -33,12 +31,40 @@ public class GameController : MonoBehaviour
         }
     }
 
+    private int _streak;
+    public int Streak
+    {
+        get
+        {
+            return _streak;
+        }
+        private set
+        {
+            if (value < 0)
+            {
+                _streak = 0;
+            }
+            else
+            {
+                _streak = value;
+
+                if (_streak > LongestStreak)
+                {
+                    LongestStreak = _streak;
+                }
+            }
+            OnStreakChanged?.Invoke(this, value);
+        }
+    }
+
+    public int LongestStreak { get; private set; }
+
     public int MaxScore { get; private set; }
 
     #endregion
 
     public event EventHandler<int> OnScoreChanged;
-
+    public event EventHandler<int> OnStreakChanged;
 
     void Start()
     {
@@ -52,18 +78,17 @@ public class GameController : MonoBehaviour
     public void OnSolve(Puzzle puzzle)
     {
         CurrentScore += puzzle.Point;
+        Streak += 1;
+
+        SoundController.Instance.PlaySound(x => x.Success);
     }
 
     public void OnFailed(Puzzle puzzle)
     {
-        
-    }
+        Streak = 0;
 
-    public void SelectPuzzle(Puzzle selectedPuzzle)
-    {
-        currentPuzzle = selectedPuzzle;
+        SoundController.Instance.PlaySound(x => x.Fail);
     }
-
 
     private void OnDestroy()
     {

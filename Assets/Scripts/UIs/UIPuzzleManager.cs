@@ -8,12 +8,13 @@ using UnityEngine.UI;
 public class UIPuzzleManager : MonoBehaviour
 {
     public Puzzle Test;
-    
+
 
     public TextMeshProUGUI QuestionNumber;
     public TextMeshProUGUI QuestionText;
     public Button ConfirmButton;
     public UIGroupedChoice Choices;
+    public MonoBehaviour PopupPanel;
 
     private Puzzle currentPuzzle;
 
@@ -29,6 +30,8 @@ public class UIPuzzleManager : MonoBehaviour
         {
             ChangeCurrentPuzzle(Test);
         }
+
+        PopupPanel.gameObject.SetActive(currentPuzzle != null);
     }
 
     private void OnConfirmButtonClicked()
@@ -37,7 +40,7 @@ public class UIPuzzleManager : MonoBehaviour
         {
             if (currentPuzzle.Attempt(choice))
             {
-                Close();
+                currentPuzzle = null;
             }
             else
             {
@@ -50,17 +53,6 @@ public class UIPuzzleManager : MonoBehaviour
         }
     }
 
-    private void Close()
-    {
-
-
-    }
-
-    private void Show()
-    {
-
-    }
-
     public void ChangeCurrentPuzzle(Puzzle puzzle)
     {
         currentPuzzle = puzzle;
@@ -71,7 +63,5 @@ public class UIPuzzleManager : MonoBehaviour
         QuestionText.text = question.QuestionText;
 
         Choices.SetQuestion(question);
-
-        Show();
     }
 }
