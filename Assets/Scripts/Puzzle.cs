@@ -17,33 +17,23 @@ public class Puzzle : MonoBehaviour
     public int MaxPoint;
     public int Number;
     
-
     private Question selectedQuestion;
 
     public event Action<Puzzle> OnSolve;
     public event Action<Puzzle> OnFailed;
+    public event Action<Puzzle> OnSelected;
 
-    public event Action OnSelected;
-
-    /// <summary>
-    /// Selects the random question.
-    /// </summary>
-    private void SelectRandomQuestion()
-    {
-        selectedQuestion = availableQuestions[UnityEngine.Random.Range(0, availableQuestions.Count())];
-    }
 
     public void Select()
     {
-        SelectRandomQuestion();
-        OnSelected?.Invoke();
+        OnSelected?.Invoke(this);
     }
 
     public Question GetSelectedQuestion()
     {
         if (selectedQuestion == null)
         {
-            Select();
+            selectedQuestion = availableQuestions[UnityEngine.Random.Range(0, availableQuestions.Count())];
         }
         return selectedQuestion;
     }
@@ -69,8 +59,9 @@ public class Puzzle : MonoBehaviour
     /// <param name="controller">The controller.</param>
     public virtual void AttachController(GameController controller)
     {
-        OnSolve += controller.OnSolve;
-        OnFailed += controller.OnFailed;
+        OnSolve += controller.OnPuzzleSolve;
+        OnFailed += controller.OnPuzzleFailed;
+        OnSelected += controller.OnPuzzleSelected;
     }
 
     /// <summary>
@@ -79,7 +70,8 @@ public class Puzzle : MonoBehaviour
     /// <param name="controller">The controller.</param>
     public virtual void DetachController(GameController controller)
     {
-        OnSolve -= controller.OnSolve;
-        OnFailed -= controller.OnFailed;
+        OnSolve -= controller.OnPuzzleSolve;
+        OnFailed -= controller.OnPuzzleFailed;
+        OnSelected += controller.OnPuzzleSelected;
     }
 }

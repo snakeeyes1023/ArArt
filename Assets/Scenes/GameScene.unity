@@ -2239,9 +2239,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundsAvailable:
-    NewAchivement: {fileID: 0}
-    Fail: {fileID: 0}
-    Success: {fileID: 0}
+    Fail: {fileID: 8300000, guid: 10c54d9d549bba14696cec1c959a5a64, type: 3}
+    Success: {fileID: 8300000, guid: 66a4ac158dea82d4eb40e10e8c92927d, type: 3}
 --- !u!1 &828034437
 GameObject:
   m_ObjectHideFlags: 0
@@ -3240,6 +3239,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   puzzles:
   - {fileID: 435462366}
+  uiPuzzleManager: {fileID: 1209262345}
 --- !u!4 &1649140460
 Transform:
   m_ObjectHideFlags: 0

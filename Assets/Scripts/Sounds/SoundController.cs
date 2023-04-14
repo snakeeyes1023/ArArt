@@ -43,8 +43,6 @@ public class SoundController : MonoBehaviour
 [Serializable]
 public class Sounds
 {
-    public AudioClip NewAchivement;
-
     public AudioClip Fail;
 
     public AudioClip Success;
