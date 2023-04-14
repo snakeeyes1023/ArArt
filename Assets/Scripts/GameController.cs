@@ -97,7 +97,14 @@ public class GameController : MonoBehaviour
 
     public void OnPuzzleSelected(Puzzle puzzle)
     {
-        uiPuzzleManager.ChangeCurrentPuzzle(puzzle);
+        if (puzzle == null)
+        {
+            uiPuzzleManager.ClearContext();
+        }
+        else
+        {
+            uiPuzzleManager.ChangeCurrentPuzzle(puzzle);
+        }
     }
 
     private void OnDestroy()

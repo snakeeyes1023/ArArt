@@ -64,4 +64,9 @@ public class UIPuzzleManager : MonoBehaviour
 
         Choices.SetQuestion(question);
     }
+
+    public void ClearContext()
+    {
+        currentPuzzle = null;
+    }
 }

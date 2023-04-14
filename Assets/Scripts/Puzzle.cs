@@ -29,6 +29,11 @@ public class Puzzle : MonoBehaviour
         OnSelected?.Invoke(this);
     }
 
+    public void Deselect()
+    {
+        OnSelected?.Invoke(null);
+    }
+
     public Question GetSelectedQuestion()
     {
         if (selectedQuestion == null)
@@ -72,6 +77,6 @@ public class Puzzle : MonoBehaviour
     {
         OnSolve -= controller.OnPuzzleSolve;
         OnFailed -= controller.OnPuzzleFailed;
-        OnSelected += controller.OnPuzzleSelected;
+        OnSelected -= controller.OnPuzzleSelected;
     }
 }
