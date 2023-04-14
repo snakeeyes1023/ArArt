@@ -12,37 +12,53 @@ public class Puzzle : MonoBehaviour
     [SerializeField]
     private Question[] availableQuestions;
 
-    public int Point;
     public bool IsDone;
-    public int MaxPoint;
-    public int Number;
-    
+    public int Point = 1;
+
+    public virtual int AvailablePoint { get { return Point; } }
+
     private Question selectedQuestion;
 
     public event Action<Puzzle> OnSolve;
     public event Action<Puzzle> OnFailed;
     public event Action<Puzzle> OnSelected;
 
-
+    /// <summary>
+    /// Selects this instance.
+    /// </summary>
     public void Select()
     {
         OnSelected?.Invoke(this);
     }
 
+    /// <summary>
+    /// Deselects this instance.
+    /// </summary>
     public void Deselect()
     {
         OnSelected?.Invoke(null);
     }
 
+    /// <summary>
+    /// Gets the selected question.
+    /// </summary>
+    /// <returns></returns>
     public Question GetSelectedQuestion()
     {
         if (selectedQuestion == null)
         {
-            selectedQuestion = availableQuestions[UnityEngine.Random.Range(0, availableQuestions.Count())];
+            int randomIndex = UnityEngine.Random.Range(0, availableQuestions.Count());
+            selectedQuestion = availableQuestions[randomIndex];
+            selectedQuestion.QuestionNumber = randomIndex;
         }
         return selectedQuestion;
     }
 
+    /// <summary>
+    /// Attempts the specified choice.
+    /// </summary>
+    /// <param name="choice">The choice.</param>
+    /// <returns></returns>
     public bool Attempt(AnswerChoice choice)
     {
         if (selectedQuestion.IsCorrect(choice))

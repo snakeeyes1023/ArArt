@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig>
   <Tracking>
+    <ImageTarget name="nympheas" size="0.180000 0.180000" />
+    <ImageTarget name="nuitEtoile" size="0.180000 0.180000" />
+    <ImageTarget name="monalisa" size="0.180000 0.180000" />
+    <ImageTarget name="jeuneFille" size="0.180000 0.180000" />
+    <ImageTarget name="guernica" size="0.180000 0.180000" />
+    <ImageTarget name="ecoleAthene" size="0.180000 0.180000" />
+    <ImageTarget name="cene" size="0.180000 0.180000" />
+    <ImageTarget name="baiser" size="0.180000 0.180000" />
+    <ImageTarget name="adam" size="0.180000 0.180000" />
+    <ImageTarget name="arnoldfini" size="0.180000 0.180000" />
+    <ImageTarget name="memoire" size="0.180000 0.180000" />
     <ImageTarget name="picasso" size="0.180000 0.180000" />
   </Tracking>
 </QCARConfig>

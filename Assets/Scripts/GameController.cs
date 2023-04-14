@@ -6,7 +6,7 @@ using UnityEngine;
 public class GameController : MonoBehaviour
 {
     #region Props
-    
+
     [SerializeField]
     private List<Puzzle> puzzles;
 
@@ -64,7 +64,7 @@ public class GameController : MonoBehaviour
 
     public int MaxScore { get; private set; }
 
-    
+
 
     #endregion
 
@@ -76,7 +76,7 @@ public class GameController : MonoBehaviour
         foreach (var puzzle in puzzles)
         {
             puzzle.AttachController(this);
-            MaxScore += puzzle.MaxPoint;
+            MaxScore += puzzle.AvailablePoint;
         }
     }
 
@@ -93,6 +93,13 @@ public class GameController : MonoBehaviour
         Streak = 0;
 
         SoundController.Instance.PlaySound(x => x.Fail);
+    }
+
+    public void OnTreasureFounded(PuzzleAnim puzzle)
+    {
+        SoundController.Instance.PlaySound(x => x.Success);
+
+        CurrentScore += puzzle.BonusPoint;
     }
 
     public void OnPuzzleSelected(Puzzle puzzle)
