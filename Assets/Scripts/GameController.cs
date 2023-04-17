@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameController : MonoBehaviour
 {
@@ -86,6 +87,22 @@ public class GameController : MonoBehaviour
         Streak += 1;
 
         SoundController.Instance.PlaySound(x => x.Success);
+
+        puzzle.DetachController(this);
+        
+        puzzles.Remove(puzzle);
+
+        if (puzzles.Count == 0)
+        {
+            OnGameFinished();
+        }
+    }
+
+    public void OnGameFinished()
+    {
+        PlayerPrefs.SetString("FinalScore", $"{_currentScore} / {MaxScore}");
+
+        SceneManager.LoadScene(3);
     }
 
     public void OnPuzzleFailed(Puzzle puzzle)

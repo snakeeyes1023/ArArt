@@ -64,6 +64,7 @@ public class Puzzle : MonoBehaviour
         if (selectedQuestion.IsCorrect(choice))
         {
             OnSolve?.Invoke(this);
+            IsDone = true;
             return true;
         }
         else
