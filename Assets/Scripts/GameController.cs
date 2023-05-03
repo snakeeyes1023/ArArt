@@ -1,14 +1,16 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class GameController : MonoBehaviour
 {
     #region Props
-
     [SerializeField]
+    private GameObject puzzleContainer;
+    
     private List<Puzzle> puzzles;
 
     [SerializeField]
@@ -74,6 +76,8 @@ public class GameController : MonoBehaviour
 
     void Start()
     {
+        puzzles = puzzleContainer.GetComponentsInChildren<Puzzle>().ToList();
+        
         foreach (var puzzle in puzzles)
         {
             puzzle.AttachController(this);

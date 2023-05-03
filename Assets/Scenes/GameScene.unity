@@ -1204,6 +1204,379 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 346600547}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!43 &386828559
+Mesh:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: VBPlane-51248
+  serializedVersion: 10
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 6
+    topology: 0
+    baseVertex: 0
+    firstVertex: 0
+    vertexCount: 4
+    localAABB:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 0.5, y: 0, z: 0.5}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes: 
+  m_RootBoneNameHash: 0
+  m_BonesAABB: []
+  m_VariableBoneCountWeights:
+    m_Data: 
+  m_MeshCompression: 0
+  m_IsReadable: 1
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexFormat: 0
+  m_IndexBuffer: 000001000200020001000300
+  m_VertexData:
+    serializedVersion: 3
+    m_VertexCount: 4
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 12
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 24
+      format: 0
+      dimension: 2
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 128
+    _typelessdata: 000000bf00000000000000bf000000000000803f000000000000000000000000000000bf000000000000003f000000000000803f000000000000803f000000000000003f00000000000000bf000000000000803f00000000000000000000803f0000003f000000000000003f000000000000803f000000000000803f0000803f
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UV:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Normals:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UVInfo: 0
+  m_LocalAABB:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0.5, y: 0, z: 0.5}
+  m_MeshUsageFlags: 0
+  m_BakedConvexCollisionMesh: 
+  m_BakedTriangleCollisionMesh: 
+  m_MeshMetrics[0]: 1
+  m_MeshMetrics[1]: 1
+  m_MeshOptimizationFlags: 1
+  m_StreamData:
+    serializedVersion: 2
+    offset: 0
+    size: 0
+    path: 
+--- !u!1001 &434264501
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1762433743}
+    m_Modifications:
+    - target: {fileID: 166436604678183783, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 386828559}
+    - target: {fileID: 1013958164873203083, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.0431
+      objectReference: {fileID: 0}
+    - target: {fileID: 1013958164873203083, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.0499
+      objectReference: {fileID: 0}
+    - target: {fileID: 2214576577148307484, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: mPrevParent
+      value: 
+      objectReference: {fileID: 434264503}
+    - target: {fileID: 2214576577148307484, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: mPrevTransform.e00
+      value: 0.036000002
+      objectReference: {fileID: 0}
+    - target: {fileID: 2214576577148307484, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: mPrevTransform.e11
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2214576577148307484, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: mPrevTransform.e13
+      value: 0.001
+      objectReference: {fileID: 0}
+    - target: {fileID: 2214576577148307484, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: mPrevTransform.e22
+      value: 0.036000002
+      objectReference: {fileID: 0}
+    - target: {fileID: 2214576577148307484, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: mPrevTransform.e33
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277550839821270650, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: Point
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277550839821270650, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: availableQuestions.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277550839821270650, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: availableQuestions.Array.data[0].QuestionText
+      value: "Quel \xE9v\xE9nement historique a inspir\xE9 la cr\xE9ation de \"Guernica\"
+        ?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277550839821270650, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: availableQuestions.Array.data[1].QuestionText
+      value: ' Qui est l''artiste qui a peint "Guernica" ?'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277550839821270650, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: availableQuestions.Array.data[2].QuestionText
+      value: Quel est le style artistique principal de "Guernica" ?
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277550839821270650, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: availableQuestions.Array.data[0].QuestionNumber
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277550839821270650, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: availableQuestions.Array.data[1].QuestionNumber
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277550839821270650, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: availableQuestions.Array.data[2].QuestionNumber
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277550839821270650, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: availableQuestions.Array.data[0].Choices.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277550839821270650, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: availableQuestions.Array.data[1].Choices.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277550839821270650, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: availableQuestions.Array.data[2].Choices.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277550839821270650, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: availableQuestions.Array.data[0].Choices.Array.data[0].Answer
+      value: "La R\xE9volution fran\xE7aise"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277550839821270650, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: availableQuestions.Array.data[0].Choices.Array.data[1].Answer
+      value: "La Premi\xE8re Guerre mondiale"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277550839821270650, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: availableQuestions.Array.data[0].Choices.Array.data[2].Answer
+      value: Le bombardement de Guernica pendant la guerre civile espagnole
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277550839821270650, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: availableQuestions.Array.data[1].Choices.Array.data[0].Answer
+      value: Pablo Picasso
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277550839821270650, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: availableQuestions.Array.data[1].Choices.Array.data[1].Answer
+      value: "Salvador Dal\xED"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277550839821270650, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: availableQuestions.Array.data[1].Choices.Array.data[2].Answer
+      value: "Joan Mir\xF3"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277550839821270650, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: availableQuestions.Array.data[2].Choices.Array.data[0].Answer
+      value: Le Cubisme
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277550839821270650, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: availableQuestions.Array.data[2].Choices.Array.data[1].Answer
+      value: "Le Surr\xE9alisme"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277550839821270650, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: availableQuestions.Array.data[2].Choices.Array.data[2].Answer
+      value: L'Expressionnisme
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277550839821270650, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: availableQuestions.Array.data[0].Choices.Array.data[2].IsValid
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277550839821270650, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: availableQuestions.Array.data[1].Choices.Array.data[0].IsValid
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277550839821270650, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: availableQuestions.Array.data[1].Choices.Array.data[2].IsValid
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277550839821270650, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: availableQuestions.Array.data[2].Choices.Array.data[0].IsValid
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562981252866535705, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: m_Name
+      value: Guernica
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562981252866535709, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: mTrackableName
+      value: guernica
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562981252866535710, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562981252866535710, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.7246
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562981252866535710, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562981252866535710, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562981252866535710, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562981252866535710, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562981252866535710, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562981252866535710, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562981252866535710, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562981252866535710, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562981252866535710, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8332711685437783863, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.00000011920929
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6562981252866535711, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+--- !u!4 &434264502 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6562981252866535710, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+  m_PrefabInstance: {fileID: 434264501}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &434264503 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4313269198977060083, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+  m_PrefabInstance: {fileID: 434264501}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &435462364
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1221,31 +1594,81 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
       propertyPath: availableQuestions.Array.size
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
       propertyPath: availableQuestions.Array.data[0].QuestionText
-      value: Quelle est le nom de l'artiste ?
+      value: Qui est l'artiste qui a peint "La Femme qui pleure" ?
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[1].QuestionText
+      value: " \xC0 quel mouvement artistique appartient la peinture \"La Femme qui
+        pleure\" ?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[2].QuestionText
+      value: "Quel \xE9v\xE9nement historique a influenc\xE9 la cr\xE9ation de \"La
+        Femme qui pleure\" ?"
       objectReference: {fileID: 0}
     - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
       propertyPath: availableQuestions.Array.data[0].QuestionNumber
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[1].QuestionNumber
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[2].QuestionNumber
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
       propertyPath: availableQuestions.Array.data[0].Choices.Array.size
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[1].Choices.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[2].Choices.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
       propertyPath: availableQuestions.Array.data[0].Choices.Array.data[0].Answer
-      value: Picasso
+      value: Pablo Picasso
       objectReference: {fileID: 0}
     - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
       propertyPath: availableQuestions.Array.data[0].Choices.Array.data[1].Answer
-      value: Devinci
+      value: Henri Matisse
       objectReference: {fileID: 0}
     - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
       propertyPath: availableQuestions.Array.data[0].Choices.Array.data[2].Answer
-      value: Gabriel
+      value: Amedeo Modigliani
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[1].Choices.Array.data[0].Answer
+      value: Le Cubisme
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[1].Choices.Array.data[1].Answer
+      value: L'Expressionnisme
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[1].Choices.Array.data[2].Answer
+      value: " Le Surr\xE9alisme"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[2].Choices.Array.data[0].Answer
+      value: "La Premi\xE8re Guerre mondiale"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[2].Choices.Array.data[1].Answer
+      value: "La R\xE9volution russe"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[2].Choices.Array.data[2].Answer
+      value: La guerre civile espagnole
       objectReference: {fileID: 0}
     - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
       propertyPath: availableQuestions.Array.data[0].Choices.Array.data[0].IsValid
@@ -1254,6 +1677,18 @@ PrefabInstance:
     - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
       propertyPath: availableQuestions.Array.data[0].Choices.Array.data[1].IsValid
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[1].Choices.Array.data[0].IsValid
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[2].Choices.Array.data[0].IsValid
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[2].Choices.Array.data[2].IsValid
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1986415244994558201, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
       propertyPath: m_Name
@@ -1311,17 +1746,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1986415244994558206, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
   m_PrefabInstance: {fileID: 435462364}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &435462366 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
-  m_PrefabInstance: {fileID: 435462364}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cf7dd71552a91584184379b1bb3acada, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &466837918
 GameObject:
   m_ObjectHideFlags: 0
@@ -1506,6 +1930,96 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1762433743}
     m_Modifications:
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[0].QuestionText
+      value: "Quel est le lieu repr\xE9sent\xE9 dans la peinture \"La Nuit \xE9toil\xE9e\"
+        ?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[1].QuestionText
+      value: "Qui est l'artiste qui a peint \"La Nuit \xE9toil\xE9e\" ?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[2].QuestionText
+      value: "\xC0 quel mouvement artistique appartient la peinture \"La Nuit \xE9toil\xE9e\"
+        ?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[0].QuestionNumber
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[1].QuestionNumber
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[2].QuestionNumber
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[0].Choices.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[1].Choices.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[2].Choices.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[0].Choices.Array.data[0].Answer
+      value: Les jardins de Giverny
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[0].Choices.Array.data[1].Answer
+      value: "La vue depuis l'asile de Saint-Paul-de-Mausole \xE0 Saint-R\xE9my-de-Provence"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[0].Choices.Array.data[2].Answer
+      value: Montmartre, Paris
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[1].Choices.Array.data[0].Answer
+      value: Claude Monet
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[1].Choices.Array.data[1].Answer
+      value: Vincent van Gogh
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[1].Choices.Array.data[2].Answer
+      value: ' Paul Gauguin'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[2].Choices.Array.data[0].Answer
+      value: Le Fauvisme
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[2].Choices.Array.data[1].Answer
+      value: Le Post-Impressionnisme
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[2].Choices.Array.data[2].Answer
+      value: "Le R\xE9alisme"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[0].Choices.Array.data[1].IsValid
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[1].Choices.Array.data[1].IsValid
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[2].Choices.Array.data[1].IsValid
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1986415244994558201, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
       propertyPath: m_Name
       value: NuitEtoile
@@ -1558,7 +2072,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1986415244994558207, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
 --- !u!4 &519820231 stripped
 Transform:
@@ -1732,7 +2247,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1595453029}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &594665866
 MeshCollider:
@@ -2012,6 +2527,104 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1762433743}
     m_Modifications:
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[0].QuestionText
+      value: "Dans quelle chapelle c\xE9l\xE8bre peut-on trouver la peinture \"La
+        Cr\xE9ation d'Adam\" ?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[1].QuestionText
+      value: "Qui est l'artiste qui a peint \"La Cr\xE9ation d'Adam\" ?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[2].QuestionText
+      value: "Quelle est la signification de la posture des doigts d'Adam et de Dieu
+        dans \"La Cr\xE9ation d'Adam\" ?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[0].QuestionNumber
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[1].QuestionNumber
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[2].QuestionNumber
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[0].Choices.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[1].Choices.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[2].Choices.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[0].Choices.Array.data[0].Answer
+      value: La Chapelle Sixtine
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[0].Choices.Array.data[1].Answer
+      value: La Chapelle Scrovegni
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[0].Choices.Array.data[2].Answer
+      value: La Sainte-Chapelle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[1].Choices.Array.data[0].Answer
+      value: "L\xE9onard de Vinci"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[1].Choices.Array.data[1].Answer
+      value: "Rapha\xEBl"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[1].Choices.Array.data[2].Answer
+      value: Michel-Ange
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[2].Choices.Array.data[0].Answer
+      value: L'harmonie entre l'homme et la nature
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[2].Choices.Array.data[1].Answer
+      value: " Le moment de la cr\xE9ation de l'homme par Dieu"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[2].Choices.Array.data[2].Answer
+      value: " La s\xE9paration de l'homme et du divin"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[0].Choices.Array.data[0].IsValid
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[1].Choices.Array.data[0].IsValid
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[1].Choices.Array.data[2].IsValid
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[2].Choices.Array.data[1].IsValid
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[2].Choices.Array.data[2].IsValid
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1986415244994558201, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
       propertyPath: m_Name
       value: Adam
@@ -2064,7 +2677,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1986415244994558207, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
 --- !u!4 &662807630 stripped
 Transform:
@@ -2537,6 +3151,170 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!43 &745317668
+Mesh:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: VBPlane-77264
+  serializedVersion: 10
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 6
+    topology: 0
+    baseVertex: 0
+    firstVertex: 0
+    vertexCount: 4
+    localAABB:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 0.5, y: 0, z: 0.5}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes: 
+  m_RootBoneNameHash: 0
+  m_BonesAABB: []
+  m_VariableBoneCountWeights:
+    m_Data: 
+  m_MeshCompression: 0
+  m_IsReadable: 1
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexFormat: 0
+  m_IndexBuffer: 000001000200020001000300
+  m_VertexData:
+    serializedVersion: 3
+    m_VertexCount: 4
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 12
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 24
+      format: 0
+      dimension: 2
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 128
+    _typelessdata: 000000bf00000000000000bf000000000000803f000000000000000000000000000000bf000000000000003f000000000000803f000000000000803f000000000000003f00000000000000bf000000000000803f00000000000000000000803f0000003f000000000000003f000000000000803f000000000000803f0000803f
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UV:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Normals:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UVInfo: 0
+  m_LocalAABB:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0.5, y: 0, z: 0.5}
+  m_MeshUsageFlags: 0
+  m_BakedConvexCollisionMesh: 
+  m_BakedTriangleCollisionMesh: 
+  m_MeshMetrics[0]: 1
+  m_MeshMetrics[1]: 1
+  m_MeshOptimizationFlags: 1
+  m_StreamData:
+    serializedVersion: 2
+    offset: 0
+    size: 0
+    path: 
 --- !u!1 &809275497
 GameObject:
   m_ObjectHideFlags: 0
@@ -2950,6 +3728,311 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &835254080
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1762433743}
+    m_Modifications:
+    - target: {fileID: 166436604678183783, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 745317668}
+    - target: {fileID: 1013958164873203083, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.0531
+      objectReference: {fileID: 0}
+    - target: {fileID: 2214576577148307484, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: mPrevParent
+      value: 
+      objectReference: {fileID: 835254082}
+    - target: {fileID: 2214576577148307484, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: mPrevTransform.e00
+      value: 0.036000002
+      objectReference: {fileID: 0}
+    - target: {fileID: 2214576577148307484, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: mPrevTransform.e11
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2214576577148307484, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: mPrevTransform.e13
+      value: 0.001
+      objectReference: {fileID: 0}
+    - target: {fileID: 2214576577148307484, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: mPrevTransform.e22
+      value: 0.036000002
+      objectReference: {fileID: 0}
+    - target: {fileID: 2214576577148307484, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: mPrevTransform.e33
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277550839821270650, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: availableQuestions.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277550839821270650, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: availableQuestions.Array.data[0].QuestionText
+      value: "Dans quelle ville italienne peut-on voir \"La C\xE8ne\" de L\xE9onard
+        de Vinci ?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277550839821270650, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: availableQuestions.Array.data[1].QuestionText
+      value: "Qu'est-ce que la C\xE8ne repr\xE9sente pour les chr\xE9tiens ?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277550839821270650, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: availableQuestions.Array.data[2].QuestionText
+      value: "Quel est le support utilis\xE9 par L\xE9onard de Vinci pour r\xE9aliser
+        sa peinture \"La C\xE8ne\" ?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277550839821270650, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: availableQuestions.Array.data[0].QuestionNumber
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277550839821270650, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: availableQuestions.Array.data[1].QuestionNumber
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277550839821270650, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: availableQuestions.Array.data[2].QuestionNumber
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277550839821270650, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: availableQuestions.Array.data[0].Choices.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277550839821270650, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: availableQuestions.Array.data[1].Choices.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277550839821270650, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: availableQuestions.Array.data[2].Choices.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277550839821270650, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: availableQuestions.Array.data[0].Choices.Array.data[0].Answer
+      value: Florence
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277550839821270650, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: availableQuestions.Array.data[0].Choices.Array.data[1].Answer
+      value: Rome
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277550839821270650, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: availableQuestions.Array.data[0].Choices.Array.data[2].Answer
+      value: Milan
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277550839821270650, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: availableQuestions.Array.data[1].Choices.Array.data[0].Answer
+      value: Un repas traditionnel juif.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277550839821270650, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: availableQuestions.Array.data[1].Choices.Array.data[1].Answer
+      value: "La comm\xE9moration de la naissance de J\xE9sus."
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277550839821270650, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: availableQuestions.Array.data[1].Choices.Array.data[2].Answer
+      value: "La comm\xE9moration de la derni\xE8re soir\xE9e que J\xE9sus a pass\xE9e
+        avec ses disciples avant sa crucifixion."
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277550839821270650, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: availableQuestions.Array.data[2].Choices.Array.data[0].Answer
+      value: "De la peinture \xE0 l'huile sur toile."
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277550839821270650, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: availableQuestions.Array.data[2].Choices.Array.data[1].Answer
+      value: De la fresque sur mur.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277550839821270650, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: availableQuestions.Array.data[2].Choices.Array.data[2].Answer
+      value: De la tempera sur bois.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277550839821270650, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: availableQuestions.Array.data[0].Choices.Array.data[1].IsValid
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277550839821270650, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: availableQuestions.Array.data[0].Choices.Array.data[2].IsValid
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277550839821270650, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: availableQuestions.Array.data[1].Choices.Array.data[2].IsValid
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277550839821270650, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: availableQuestions.Array.data[2].Choices.Array.data[1].IsValid
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277550839821270650, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: availableQuestions.Array.data[2].Choices.Array.data[2].IsValid
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562981252866535705, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: m_Name
+      value: Cene
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562981252866535709, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: mTrackableName
+      value: cene
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562981252866535710, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562981252866535710, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.149
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562981252866535710, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562981252866535710, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562981252866535710, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562981252866535710, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562981252866535710, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562981252866535710, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562981252866535710, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562981252866535710, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562981252866535710, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8332711685437783863, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.00000010803342
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6562981252866535711, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+--- !u!4 &835254081 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6562981252866535710, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+  m_PrefabInstance: {fileID: 835254080}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &835254082 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4313269198977060083, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+  m_PrefabInstance: {fileID: 835254080}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &849593531
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 849593532}
+  - component: {fileID: 849593535}
+  - component: {fileID: 849593534}
+  - component: {fileID: 849593533}
+  m_Layer: 0
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &849593532
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 849593531}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.0001, z: 0}
+  m_LocalScale: {x: 0.03, y: 0.015, z: 0.02}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 434264502}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!64 &849593533
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 849593531}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &849593534
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 849593531}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: df8e60f381ab90e498c32d0cad8ebc3d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &849593535
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 849593531}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &872966413
 GameObject:
   m_ObjectHideFlags: 0
@@ -3029,6 +4112,104 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enableStreak: 4
+--- !u!1 &1040344529
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1040344530}
+  - component: {fileID: 1040344533}
+  - component: {fileID: 1040344532}
+  - component: {fileID: 1040344531}
+  m_Layer: 0
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1040344530
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1040344529}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.0001, z: 0}
+  m_LocalScale: {x: 0.03, y: 0.015, z: 0.02}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 835254081}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!64 &1040344531
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1040344529}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &1040344532
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1040344529}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 9dcc0e8f9c5383d4582d9bd8149b0168, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1040344533
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1040344529}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1062319158
 GameObject:
   m_ObjectHideFlags: 0
@@ -3305,6 +4486,100 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1762433743}
     m_Modifications:
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[0].QuestionText
+      value: Qui est le peintre de cette oeuvre?
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[1].QuestionText
+      value: "\xC0 quel mouvement artistique appartient la s\xE9rie de peintures
+        \"Les Nymph\xE9as\" ?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[2].QuestionText
+      value: " O\xF9 se trouvent les jardins qui ont inspir\xE9 la s\xE9rie de tableaux
+        \"Les Nymph\xE9as\" ?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[0].QuestionNumber
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[1].QuestionNumber
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[2].QuestionNumber
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[0].Choices.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[1].Choices.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[2].Choices.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[0].Choices.Array.data[0].Answer
+      value: Rachid Badouri
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[0].Choices.Array.data[1].Answer
+      value: Alfred Sisley
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[0].Choices.Array.data[2].Answer
+      value: Claude Monet
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[1].Choices.Array.data[0].Answer
+      value: Le Romantisme
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[1].Choices.Array.data[1].Answer
+      value: Le Cubisme
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[1].Choices.Array.data[2].Answer
+      value: L'Impressionnisme
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[2].Choices.Array.data[0].Answer
+      value: Giverny, France
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[2].Choices.Array.data[1].Answer
+      value: Arles, France
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[2].Choices.Array.data[2].Answer
+      value: Aix-en-Provence, France
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[0].Choices.Array.data[2].IsValid
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[1].Choices.Array.data[2].IsValid
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[2].Choices.Array.data[0].IsValid
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[2].Choices.Array.data[2].IsValid
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1986415244994558201, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
       propertyPath: m_Name
       value: Nympheas
@@ -3357,7 +4632,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1986415244994558207, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
 --- !u!4 &1341880577 stripped
 Transform:
@@ -3396,7 +4672,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 662807630}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &1361593433
 MeshCollider:
@@ -3494,7 +4770,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1341880577}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &1389413733
 MeshCollider:
@@ -3903,6 +5179,105 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1762433743}
     m_Modifications:
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[0].QuestionText
+      value: "Dans quelle p\xE9riode artistique \"L'\xC9cole d'Ath\xE8nes\" a-t-elle
+        \xE9t\xE9 peinte ?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[1].QuestionText
+      value: "Qui est l'artiste qui a peint l'\u0153uvre \"L'\xC9cole d'Ath\xE8nes\"
+        ?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[2].QuestionText
+      value: "Quel philosophe est repr\xE9sent\xE9 au centre de la peinture \"L'\xC9cole
+        d'Ath\xE8nes\" en train de pointer vers le ciel ?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[0].QuestionNumber
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[1].QuestionNumber
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[2].QuestionNumber
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[0].Choices.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[1].Choices.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[2].Choices.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[0].Choices.Array.data[0].Answer
+      value: Le Baroque
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[0].Choices.Array.data[1].Answer
+      value: Le Romantisme
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[0].Choices.Array.data[2].Answer
+      value: La Haute Renaissance
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[1].Choices.Array.data[0].Answer
+      value: "L\xE9onard de Vinci"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[1].Choices.Array.data[1].Answer
+      value: "Rapha\xEBl"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[1].Choices.Array.data[2].Answer
+      value: Michel-Ange
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[2].Choices.Array.data[0].Answer
+      value: Aristote
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[2].Choices.Array.data[1].Answer
+      value: Socrate
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[2].Choices.Array.data[2].Answer
+      value: Platon
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[0].Choices.Array.data[2].IsValid
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[1].Choices.Array.data[1].IsValid
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[1].Choices.Array.data[2].IsValid
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[2].Choices.Array.data[1].IsValid
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[2].Choices.Array.data[2].IsValid
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1986415244994558201, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
       propertyPath: m_Name
       value: EcoleAthene
@@ -3955,7 +5330,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1986415244994558207, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
 --- !u!4 &1595453029 stripped
 Transform:
@@ -4084,7 +5460,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4277550839821270650, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
       propertyPath: availableQuestions.Array.size
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4277550839821270650, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
       propertyPath: availableQuestions.Array.data[0].QuestionText
@@ -4094,9 +5470,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4277550839821270650, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
       propertyPath: availableQuestions.Array.data[1].QuestionText
-      value: "Alors que la peinture manquait, combient de riches Am\xE9ricains ont
-        \xE9t\xE9 amen\xE9s \xE0 payer 300 000 $ chacun pour de fausses peintures
-        de Mona Lisa."
+      value: "Dans quel mus\xE9e c\xE9l\xE8bre peut-on voir \"La Joconde\" ?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277550839821270650, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: availableQuestions.Array.data[2].QuestionText
+      value: "Quelle technique de peinture est utilis\xE9e par L\xE9onard de Vinci
+        pour cr\xE9er un effet de flou et de profondeur dans \"La Joconde\" ?"
       objectReference: {fileID: 0}
     - target: {fileID: 4277550839821270650, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
       propertyPath: availableQuestions.Array.data[0].QuestionNumber
@@ -4104,7 +5483,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4277550839821270650, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
       propertyPath: availableQuestions.Array.data[1].QuestionNumber
-      value: 1
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277550839821270650, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: availableQuestions.Array.data[2].QuestionNumber
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4277550839821270650, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
       propertyPath: availableQuestions.Array.data[0].Choices.Array.size
@@ -4112,7 +5495,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4277550839821270650, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
       propertyPath: availableQuestions.Array.data[1].Choices.Array.size
-      value: 1
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277550839821270650, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: availableQuestions.Array.data[2].Choices.Array.size
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4277550839821270650, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
       propertyPath: availableQuestions.Array.data[0].Choices.Array.data[0].Answer
@@ -4128,15 +5515,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4277550839821270650, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
       propertyPath: availableQuestions.Array.data[1].Choices.Array.data[0].Answer
-      value: 6
+      value: Le Louvre
       objectReference: {fileID: 0}
     - target: {fileID: 4277550839821270650, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
       propertyPath: availableQuestions.Array.data[1].Choices.Array.data[1].Answer
-      value: 9
+      value: Le Prado
       objectReference: {fileID: 0}
     - target: {fileID: 4277550839821270650, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
       propertyPath: availableQuestions.Array.data[1].Choices.Array.data[2].Answer
-      value: 12
+      value: La Galerie des Offices
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277550839821270650, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: availableQuestions.Array.data[2].Choices.Array.data[0].Answer
+      value: Le sfumato
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277550839821270650, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: availableQuestions.Array.data[2].Choices.Array.data[1].Answer
+      value: Le tenebrismo
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277550839821270650, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: availableQuestions.Array.data[2].Choices.Array.data[2].Answer
+      value: Le chiaroscuro
       objectReference: {fileID: 0}
     - target: {fileID: 4277550839821270650, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
       propertyPath: availableQuestions.Array.data[0].Choices.Array.data[0].IsValid
@@ -4148,6 +5547,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4277550839821270650, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
       propertyPath: availableQuestions.Array.data[1].Choices.Array.data[0].IsValid
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277550839821270650, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: availableQuestions.Array.data[2].Choices.Array.data[0].IsValid
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6562981252866535705, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
@@ -4222,17 +5625,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6562981252866535710, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
   m_PrefabInstance: {fileID: 1640714948}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1640714950 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4277550839821270650, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
-  m_PrefabInstance: {fileID: 1640714948}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cc320962ac111c84a92803bb4a122f3b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1649140458
 GameObject:
   m_ObjectHideFlags: 0
@@ -4262,9 +5654,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 79e3647ed161dd5458d296baa970e46d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  puzzles:
-  - {fileID: 435462366}
-  - {fileID: 1640714950}
+  puzzleContainer: {fileID: 1762433742}
   uiPuzzleManager: {fileID: 1209262345}
 --- !u!4 &1649140460
 Transform:
@@ -4359,6 +5749,104 @@ MonoBehaviour:
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
   m_ReverseArrangement: 0
+--- !u!1 &1688881203
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1688881204}
+  - component: {fileID: 1688881207}
+  - component: {fileID: 1688881206}
+  - component: {fileID: 1688881205}
+  m_Layer: 0
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1688881204
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1688881203}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.0001, z: 0}
+  m_LocalScale: {x: 0.015, y: 0.015, z: 0.02}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1768463045}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!64 &1688881205
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1688881203}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &1688881206
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1688881203}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 5611b5427d6c9764f8ce4e03a2d32d5e, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1688881207
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1688881203}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1718110985
 GameObject:
   m_ObjectHideFlags: 0
@@ -4612,6 +6100,9 @@ Transform:
   - {fileID: 2085735358}
   - {fileID: 1768385332}
   - {fileID: 662807630}
+  - {fileID: 1768463045}
+  - {fileID: 434264502}
+  - {fileID: 835254081}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4622,6 +6113,104 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1762433743}
     m_Modifications:
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[0].QuestionText
+      value: "Quel mat\xE9riau pr\xE9cieux a \xE9t\xE9 largement utilis\xE9 dans
+        la peinture \"Le Baiser\" de Gustav Klimt ?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[1].QuestionText
+      value: Qui est l'artiste qui a peint "Le Baiser" ?
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[2].QuestionText
+      value: " \xC0 quel mouvement artistique appartient le tableau \"Le Baiser\"
+        ?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[0].QuestionNumber
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[1].QuestionNumber
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[2].QuestionNumber
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[0].Choices.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[1].Choices.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[2].Choices.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[0].Choices.Array.data[0].Answer
+      value: Diamants
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[0].Choices.Array.data[1].Answer
+      value: Feuilles d'or
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[0].Choices.Array.data[2].Answer
+      value: Perles
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[1].Choices.Array.data[0].Answer
+      value: Gustav Klimt
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[1].Choices.Array.data[1].Answer
+      value: Egon Schiele
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[1].Choices.Array.data[2].Answer
+      value: Auguste Rodin
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[2].Choices.Array.data[0].Answer
+      value: Le Symbolisme
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[2].Choices.Array.data[1].Answer
+      value: L'Art nouveau
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[2].Choices.Array.data[2].Answer
+      value: L'Expressionnisme
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[0].Choices.Array.data[1].IsValid
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[1].Choices.Array.data[0].IsValid
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[1].Choices.Array.data[1].IsValid
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[2].Choices.Array.data[0].IsValid
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[2].Choices.Array.data[1].IsValid
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1986415244994558201, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
       propertyPath: m_Name
       value: Baiser
@@ -4674,12 +6263,224 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1986415244994558207, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
 --- !u!4 &1768385332 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1986415244994558206, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
   m_PrefabInstance: {fileID: 1768385331}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1768463044
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1762433743}
+    m_Modifications:
+    - target: {fileID: 166436604678183783, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 2064747981}
+    - target: {fileID: 1013958164873203083, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.0397
+      objectReference: {fileID: 0}
+    - target: {fileID: 1013958164873203083, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.0494
+      objectReference: {fileID: 0}
+    - target: {fileID: 2214576577148307484, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: mPrevParent
+      value: 
+      objectReference: {fileID: 1768463046}
+    - target: {fileID: 2214576577148307484, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: mPrevTransform.e00
+      value: 0.036000002
+      objectReference: {fileID: 0}
+    - target: {fileID: 2214576577148307484, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: mPrevTransform.e11
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2214576577148307484, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: mPrevTransform.e13
+      value: 0.001
+      objectReference: {fileID: 0}
+    - target: {fileID: 2214576577148307484, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: mPrevTransform.e22
+      value: 0.036000002
+      objectReference: {fileID: 0}
+    - target: {fileID: 2214576577148307484, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: mPrevTransform.e33
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277550839821270650, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: availableQuestions.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277550839821270650, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: availableQuestions.Array.data[0].QuestionText
+      value: "Quelle est la particularit\xE9 du miroir convexe pr\xE9sent dans la
+        peinture \"Les \xC9poux Arnolfini\" ?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277550839821270650, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: availableQuestions.Array.data[1].QuestionText
+      value: "Qui est l'artiste ayant peint \"Les \xC9poux Arnolfini\" ?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277550839821270650, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: availableQuestions.Array.data[2].QuestionText
+      value: "Quel symbole de prosp\xE9rit\xE9 et de statut social est pr\xE9sent
+        dans \"Les \xC9poux Arnolfini\" ?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277550839821270650, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: availableQuestions.Array.data[0].QuestionNumber
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277550839821270650, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: availableQuestions.Array.data[1].QuestionNumber
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277550839821270650, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: availableQuestions.Array.data[2].QuestionNumber
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277550839821270650, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: availableQuestions.Array.data[0].Choices.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277550839821270650, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: availableQuestions.Array.data[1].Choices.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277550839821270650, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: availableQuestions.Array.data[2].Choices.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277550839821270650, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: availableQuestions.Array.data[0].Choices.Array.data[0].Answer
+      value: "Il refl\xE8te les \xE9poux Arnolfini sous un angle diff\xE9rent"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277550839821270650, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: availableQuestions.Array.data[0].Choices.Array.data[1].Answer
+      value: "Il montre un reflet d\xE9form\xE9 de la pi\xE8ce"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277550839821270650, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: availableQuestions.Array.data[0].Choices.Array.data[2].Answer
+      value: "Il r\xE9v\xE8le la pr\xE9sence de l'artiste et d'une autre personne
+        dans la pi\xE8ce"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277550839821270650, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: availableQuestions.Array.data[1].Choices.Array.data[0].Answer
+      value: Jan van Eyck
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277550839821270650, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: availableQuestions.Array.data[1].Choices.Array.data[1].Answer
+      value: Sandro Botticelli
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277550839821270650, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: availableQuestions.Array.data[1].Choices.Array.data[2].Answer
+      value: "Albrecht D\xFCrer"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277550839821270650, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: availableQuestions.Array.data[2].Choices.Array.data[0].Answer
+      value: Un tapis oriental
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277550839821270650, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: availableQuestions.Array.data[2].Choices.Array.data[1].Answer
+      value: Une couronne royale
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277550839821270650, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: availableQuestions.Array.data[2].Choices.Array.data[2].Answer
+      value: Un collier de perles
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277550839821270650, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: availableQuestions.Array.data[0].Choices.Array.data[2].IsValid
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277550839821270650, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: availableQuestions.Array.data[1].Choices.Array.data[0].IsValid
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277550839821270650, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: availableQuestions.Array.data[1].Choices.Array.data[2].IsValid
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277550839821270650, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: availableQuestions.Array.data[2].Choices.Array.data[0].IsValid
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562981252866535705, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: m_Name
+      value: Arnolfini
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562981252866535709, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: mTrackableName
+      value: arnoldfini
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562981252866535710, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562981252866535710, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.363
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562981252866535710, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562981252866535710, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562981252866535710, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562981252866535710, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562981252866535710, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562981252866535710, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562981252866535710, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562981252866535710, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6562981252866535710, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8332711685437783863, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.000000029802322
+      objectReference: {fileID: 0}
+    - target: {fileID: 8332711685437783863, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.001
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6562981252866535711, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+--- !u!4 &1768463045 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6562981252866535710, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+  m_PrefabInstance: {fileID: 1768463044}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1768463046 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4313269198977060083, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+  m_PrefabInstance: {fileID: 1768463044}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1817807426
 GameObject:
@@ -4713,7 +6514,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1768385332}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &1817807428
 MeshCollider:
@@ -4863,7 +6664,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 809275498}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.33333337
+  m_Size: 0.33333334
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -5102,6 +6903,170 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2018650078}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!43 &2064747981
+Mesh:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: VBPlane-42814
+  serializedVersion: 10
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 6
+    topology: 0
+    baseVertex: 0
+    firstVertex: 0
+    vertexCount: 4
+    localAABB:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 0.5, y: 0, z: 0.5}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes: 
+  m_RootBoneNameHash: 0
+  m_BonesAABB: []
+  m_VariableBoneCountWeights:
+    m_Data: 
+  m_MeshCompression: 0
+  m_IsReadable: 1
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexFormat: 0
+  m_IndexBuffer: 000001000200020001000300
+  m_VertexData:
+    serializedVersion: 3
+    m_VertexCount: 4
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 12
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 24
+      format: 0
+      dimension: 2
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 128
+    _typelessdata: 000000bf00000000000000bf000000000000803f000000000000000000000000000000bf000000000000003f000000000000803f000000000000803f000000000000003f00000000000000bf000000000000803f00000000000000000000803f0000003f000000000000003f000000000000803f000000000000803f0000803f
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UV:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Normals:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UVInfo: 0
+  m_LocalAABB:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0.5, y: 0, z: 0.5}
+  m_MeshUsageFlags: 0
+  m_BakedConvexCollisionMesh: 
+  m_BakedTriangleCollisionMesh: 
+  m_MeshMetrics[0]: 1
+  m_MeshMetrics[1]: 1
+  m_MeshOptimizationFlags: 1
+  m_StreamData:
+    serializedVersion: 2
+    offset: 0
+    size: 0
+    path: 
 --- !u!1001 &2085735357
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5109,6 +7074,108 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1762433743}
     m_Modifications:
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[0].QuestionText
+      value: "Dans quel pays a \xE9t\xE9 peint le tableau \"Jeune fille \xE0 la perle\"
+        ?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[1].QuestionText
+      value: "Qui est l'artiste qui a peint \"Jeune fille \xE0 la perle\" ?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[2].QuestionText
+      value: " Pourquoi \"Jeune fille \xE0 la perle\" est parfois surnomm\xE9e la
+        \"Joconde du Nord\" ?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[0].QuestionNumber
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[1].QuestionNumber
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[2].QuestionNumber
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[0].Choices.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[1].Choices.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[2].Choices.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[0].Choices.Array.data[0].Answer
+      value: France
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[0].Choices.Array.data[1].Answer
+      value: Pays-Bas
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[0].Choices.Array.data[2].Answer
+      value: Italie
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[1].Choices.Array.data[0].Answer
+      value: Johannes Vermeer
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[1].Choices.Array.data[1].Answer
+      value: Rembrandt van Rijn
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[1].Choices.Array.data[2].Answer
+      value: Pierre-Auguste Renoir
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[2].Choices.Array.data[0].Answer
+      value: En raison de sa technique de peinture similaire
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[2].Choices.Array.data[1].Answer
+      value: "En raison du myst\xE8re entourant l'identit\xE9 du mod\xE8le"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[2].Choices.Array.data[2].Answer
+      value: En raison de sa ressemblance avec "La Joconde"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[0].Choices.Array.data[1].IsValid
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[0].Choices.Array.data[2].IsValid
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[1].Choices.Array.data[0].IsValid
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[1].Choices.Array.data[1].IsValid
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[2].Choices.Array.data[0].IsValid
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986415244994558194, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
+      propertyPath: availableQuestions.Array.data[2].Choices.Array.data[1].IsValid
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1986415244994558201, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
       propertyPath: m_Name
       value: JeuneFille
@@ -5161,7 +7228,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1986415244994558207, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
 --- !u!4 &2085735358 stripped
 Transform:
