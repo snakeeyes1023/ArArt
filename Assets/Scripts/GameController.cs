@@ -12,6 +12,8 @@ public class GameController : MonoBehaviour
     private GameObject puzzleContainer;
     
     private List<Puzzle> puzzles;
+    private List<Puzzle> failedPuzzles;
+    private List<Puzzle> succeededPuzzles;
 
     [SerializeField]
     private UIPuzzleManager uiPuzzleManager;
@@ -67,8 +69,6 @@ public class GameController : MonoBehaviour
 
     public int MaxScore { get; private set; }
 
-
-
     #endregion
 
     public event EventHandler<int> OnScoreChanged;
@@ -76,7 +76,10 @@ public class GameController : MonoBehaviour
 
     void Start()
     {
+        // on va chercher tous les puzzles et initialise les événements
         puzzles = puzzleContainer.GetComponentsInChildren<Puzzle>().ToList();
+        succeededPuzzles = new List<Puzzle>();
+        failedPuzzles = new List<Puzzle>();
         
         foreach (var puzzle in puzzles)
         {
@@ -85,42 +88,67 @@ public class GameController : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// Lorsqu'une puzzle à été réussi
+    /// </summary>
+    /// <param name="puzzle">Les puzzles réussis</param>
     public void OnPuzzleSolve(Puzzle puzzle)
     {
-        CurrentScore += puzzle.Point;
-        Streak += 1;
-
         SoundController.Instance.PlaySound(x => x.Success);
-
         puzzle.DetachController(this);
-        
+
+        // dans le cas ou le puzzle à déjà été essayé
+        if (!failedPuzzles.Any(x => x == puzzle))
+        {
+            CurrentScore += puzzle.Point;
+            Streak += 1;
+            succeededPuzzles.Add(puzzle);
+        }
+
         puzzles.Remove(puzzle);
+
 
         if (puzzles.Count == 0)
         {
             OnGameFinished();
         }
     }
-
-    public void OnGameFinished()
-    {
-        PlayerPrefs.SetString("FinalScore", $"{_currentScore} / {MaxScore}");
-
-        SceneManager.LoadScene(3);
-    }
-
+    
+    /// <summary>
+    /// Lorsque le joueur à manquer un puzzle
+    /// </summary>
+    /// <param name="puzzle"></param>
     public void OnPuzzleFailed(Puzzle puzzle)
     {
         Streak = 0;
 
         SoundController.Instance.PlaySound(x => x.Fail);
+
+        if (!failedPuzzles.Any(x => x == puzzle))
+        {
+            failedPuzzles.Add(puzzle);
+        }
     }
 
+    /// <summary>
+    /// Lorsque le user trouve un treasore
+    /// </summary>
+    /// <param name="puzzle"></param>
     public void OnTreasureFounded(PuzzleAnim puzzle)
     {
         SoundController.Instance.PlaySound(x => x.Success);
 
         CurrentScore += puzzle.BonusPoint;
+    }
+
+    /// <summary>
+    /// Lorsque la parti est terminé
+    /// </summary>
+    public void OnGameFinished()
+    {
+        PlayerPrefs.SetString("FinalScore", $"{_currentScore} / {MaxScore}");
+
+        SceneManager.LoadScene(3);
     }
 
     public void OnPuzzleSelected(Puzzle puzzle)

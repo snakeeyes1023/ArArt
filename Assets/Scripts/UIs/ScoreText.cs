@@ -12,7 +12,8 @@ public class ScoreText : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        GameController.OnScoreChanged += GameController_OnScoreChanged; ;
+        GameController.OnScoreChanged += GameController_OnScoreChanged;
+              
     }
 
     private void GameController_OnScoreChanged(object sender, int newScore)

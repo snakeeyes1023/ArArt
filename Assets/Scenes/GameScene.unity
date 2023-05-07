@@ -3768,6 +3768,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4277550839821270650, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: Point
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277550839821270650, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
       propertyPath: availableQuestions.Array.size
       value: 3
       objectReference: {fileID: 0}
@@ -6315,6 +6319,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4277550839821270650, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
+      propertyPath: Point
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4277550839821270650, guid: 810c2e3c4875954408de26c174d6a7a1, type: 3}
       propertyPath: availableQuestions.Array.size
       value: 3
       objectReference: {fileID: 0}
@@ -6664,7 +6672,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 809275498}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.33333334
+  m_Size: 0.33333337
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
