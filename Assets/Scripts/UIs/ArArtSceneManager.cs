@@ -5,6 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class ArArtSceneManager : MonoBehaviour
 {
+    public void Awake()
+    {
+        PlayerPrefs.SetInt("Difficulty", 0);
+        PlayerPrefs.SetInt("Music", 1);
+
+    }
     public static void PlayGame()
     {
         SceneManager.LoadScene(2);

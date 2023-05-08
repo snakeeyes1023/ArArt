@@ -28,7 +28,8 @@ public class SoundController : MonoBehaviour
     {
         var selectedClip = sound(soundsAvailable);
 
-        if (selectedClip != null)
+        if (selectedClip != null
+            && PlayerPrefs.GetInt("Music") == 1)
         {
             AudioSource.PlayClipAtPoint(selectedClip, Camera.main.transform.position);
         }

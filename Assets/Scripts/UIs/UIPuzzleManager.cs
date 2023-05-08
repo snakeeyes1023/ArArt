@@ -44,8 +44,8 @@ public class UIPuzzleManager : MonoBehaviour
         Question question = currentPuzzle.GetSelectedQuestion();
 
 
-        QuestionNumber.text = "Question " + question.QuestionNumber;
-        QuestionText.text = question.QuestionText;
+        QuestionNumber.text = question.QuestionText;
+        QuestionText.text = puzzle.GetPuzzleMessage();
 
         Choices.SetQuestion(question);
     }

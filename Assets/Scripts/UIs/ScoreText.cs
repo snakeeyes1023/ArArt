@@ -13,7 +13,8 @@ public class ScoreText : MonoBehaviour
     void Start()
     {
         GameController.OnScoreChanged += GameController_OnScoreChanged;
-              
+
+        GameController_OnScoreChanged(this, GameController.CurrentScore);
     }
 
     private void GameController_OnScoreChanged(object sender, int newScore)

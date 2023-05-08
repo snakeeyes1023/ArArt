@@ -49,7 +49,6 @@ public class Puzzle : MonoBehaviour
         {
             int randomIndex = UnityEngine.Random.Range(0, availableQuestions.Count());
             selectedQuestion = availableQuestions[randomIndex];
-            selectedQuestion.QuestionNumber = randomIndex;
         }
         return selectedQuestion;
     }
@@ -61,6 +60,9 @@ public class Puzzle : MonoBehaviour
     /// <returns></returns>
     public bool Attempt(AnswerChoice choice)
     {
+        // debug log
+        Debug.Log($"[Puzzle] Attempting {choice.Answer}");
+
         if (selectedQuestion.IsCorrect(choice))
         {
             OnSolve?.Invoke(this);
@@ -72,7 +74,11 @@ public class Puzzle : MonoBehaviour
             OnFailed?.Invoke(this);
             return false;
         }
+    }
 
+    public virtual string GetPuzzleMessage()
+    {
+        return $"Cette question peut vous rapporter {AvailablePoint} points";
     }
 
     /// <summary>

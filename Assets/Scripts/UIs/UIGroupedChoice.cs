@@ -8,8 +8,40 @@ public class UIGroupedChoice : MonoBehaviour
 {
     [SerializeField] private GameObject radioButtonPrefab;
 
-    private List<Toggle> radioButtons = new List<Toggle>();
-    private IEnumerable<AnswerChoice> answerChoices;
+    private Toggle[] radioButtons;
+    private AnswerChoice[] answerChoices;
+
+
+    public AnswerChoice GetSelectedAnswer()
+    {
+        if (radioButtons != null)
+        {
+            for (int i = 0; i < radioButtons.Length; i++)
+            {
+                if (radioButtons[i].isOn)
+                {
+                    return answerChoices[i];
+                }
+            }
+        }
+        return null;
+    }
+
+    public void SetQuestion(Question question)
+    {
+        ClearContext();
+
+        answerChoices = question.GetChoices().ToArray();
+
+
+        List<Toggle> pendingRadioButtons = new List<Toggle>();
+        foreach (AnswerChoice answerChoice in answerChoices)
+        {
+            pendingRadioButtons.Add(AddRadioButton(answerChoice.Answer));
+        }
+
+        radioButtons = pendingRadioButtons.ToArray();
+    }
 
 
     private void OnRadioButtonValueChanged(Toggle changedRadioButton)
@@ -26,49 +58,27 @@ public class UIGroupedChoice : MonoBehaviour
         }
     }
 
-    public AnswerChoice GetSelectedAnswer()
-    {
-        foreach (Toggle radioButton in radioButtons)
-        {
-            if (radioButton.isOn)
-            {
-                int index = radioButtons.IndexOf(radioButton);
-                return answerChoices.ElementAt(index);
-            }
-        }
-
-        return null;
-    }
-
-    public void SetQuestion(Question question)
-    {
-        ClearContext();
-
-        answerChoices = question.GetChoices();
-
-        foreach (AnswerChoice answerChoice in answerChoices)
-        {
-            AddRadioButton(answerChoice.Answer);
-        }
-    }
-
     private void ClearContext()
     {
-        foreach (Toggle radioButton in radioButtons)
+        if (radioButtons != null)
         {
-            Destroy(radioButton.gameObject);
-        }
+            foreach (Toggle radioButton in radioButtons)
+            {
+                Destroy(radioButton.gameObject);
+            }
 
-        radioButtons.Clear();
+            radioButtons = null;
+        }
     }
 
-    private void AddRadioButton(string labelText)
+    private Toggle AddRadioButton(string labelText)
     {
         GameObject newRadioButton = Instantiate(radioButtonPrefab, transform);
         newRadioButton.GetComponentInChildren<Text>().text = labelText;
 
         Toggle toggleComponent = newRadioButton.GetComponent<Toggle>();
         toggleComponent.onValueChanged.AddListener(delegate { OnRadioButtonValueChanged(toggleComponent); });
-        radioButtons.Add(toggleComponent);
+
+        return toggleComponent;
     }
 }

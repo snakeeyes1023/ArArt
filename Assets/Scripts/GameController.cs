@@ -74,7 +74,7 @@ public class GameController : MonoBehaviour
     public event EventHandler<int> OnScoreChanged;
     public event EventHandler<int> OnStreakChanged;
 
-    void Start()
+    void Awake()
     {
         // on va chercher tous les puzzles et initialise les événements
         puzzles = puzzleContainer.GetComponentsInChildren<Puzzle>().ToList();
@@ -88,6 +88,18 @@ public class GameController : MonoBehaviour
         }
     }
 
+    public void OnPuzzleSelected(Puzzle puzzle)
+    {
+        if (puzzle == null)
+        {
+            uiPuzzleManager.ClearContext();
+        }
+        else
+        {
+            uiPuzzleManager.ChangeCurrentPuzzle(puzzle);
+        }
+    }
+
     /// <summary>
     /// Lorsqu'une puzzle à été réussi
     /// </summary>
@@ -95,7 +107,6 @@ public class GameController : MonoBehaviour
     public void OnPuzzleSolve(Puzzle puzzle)
     {
         SoundController.Instance.PlaySound(x => x.Success);
-        puzzle.DetachController(this);
 
         // dans le cas ou le puzzle à déjà été essayé
         if (!failedPuzzles.Any(x => x == puzzle))
@@ -105,12 +116,13 @@ public class GameController : MonoBehaviour
             succeededPuzzles.Add(puzzle);
         }
 
+        puzzle.DetachController(this);
         puzzles.Remove(puzzle);
 
 
         if (puzzles.Count == 0)
         {
-            OnGameFinished();
+            OnGameEnded();
         }
     }
     
@@ -144,23 +156,11 @@ public class GameController : MonoBehaviour
     /// <summary>
     /// Lorsque la parti est terminé
     /// </summary>
-    public void OnGameFinished()
+    public void OnGameEnded()
     {
-        PlayerPrefs.SetString("FinalScore", $"{_currentScore} / {MaxScore}");
+        PlayerPrefs.SetString("FinalScoreMessage", $"{_currentScore} / {MaxScore}");
 
         SceneManager.LoadScene(3);
-    }
-
-    public void OnPuzzleSelected(Puzzle puzzle)
-    {
-        if (puzzle == null)
-        {
-            uiPuzzleManager.ClearContext();
-        }
-        else
-        {
-            uiPuzzleManager.ChangeCurrentPuzzle(puzzle);
-        }
     }
 
     private void OnDestroy()
