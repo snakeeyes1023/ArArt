@@ -29,6 +29,10 @@ public class ArArtSceneManager : MonoBehaviour
     public static void QuitGame()
     {
         Application.Quit();
+
+#if UNITY_EDITOR
+        UnityEditor.EditorApplication.isPlaying = false;
+#endif
     }
 
     public static void SetDifficulty(int difficulty)
