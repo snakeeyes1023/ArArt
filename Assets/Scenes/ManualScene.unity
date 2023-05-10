@@ -181,7 +181,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Les QR's sont coll\xE9e dans diff\xE9rents endroit de la classe."
+  m_text: "Les QR's sont coll\xE9e dans diff\xE9rents endroits de la classe."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1738,8 +1738,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Une question appara\xEEtera. R\xE9ponder si. (Attention en cas d'erreur
-    vous perderez votre suite de bonne r\xE9ponse)"
+  m_text: "R\xE9ponder \xE0 la question demander.\n\n (ps: vous remarquerez que certaine
+    peinture valent 2 points je vous laisse en d\xE9couvrir la raison ...)"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2986,7 +2986,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Les exploits corresponds \xE0 une suite de bonne r\xE9ponse."
+  m_text: "Les exploits corresponds \xE0 une suite de bonnes r\xE9ponses."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
