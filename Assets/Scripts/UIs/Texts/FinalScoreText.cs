@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 
+/// <summary>
+/// Permet d'afficher le score final depuis les players prefs
+/// </summary>
 public class FinalScoreText : MonoBehaviour
 {
     public TextMeshProUGUI TextMeshPro;

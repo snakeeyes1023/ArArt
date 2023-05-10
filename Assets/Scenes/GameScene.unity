@@ -771,7 +771,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 217573445}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4259823976e2bc240b669e05e63e0b7d, type: 3}
+  m_Script: {fileID: 11500000, guid: fdd1bac90588a6849b0f778571a7ba72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   GameController: {fileID: 1649140459}
@@ -4759,7 +4759,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1986415244994558207, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 25a148a2005b0244db0052f97454da3f, type: 3}
 --- !u!4 &1337800480 stripped
 Transform:
@@ -7268,7 +7269,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 809275498}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.33333337
+  m_Size: 0.33333334
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:

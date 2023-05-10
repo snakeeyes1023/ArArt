@@ -87,7 +87,7 @@ public class Puzzle : MonoBehaviour
     /// <param name="controller">The controller.</param>
     public virtual void AttachController(GameController controller)
     {
-        OnSolve += controller.OnPuzzleSolve;
+        OnSolve += controller.OnPuzzleSolved;
         OnFailed += controller.OnPuzzleFailed;
         OnSelected += controller.OnPuzzleSelected;
     }
@@ -98,7 +98,7 @@ public class Puzzle : MonoBehaviour
     /// <param name="controller">The controller.</param>
     public virtual void DetachController(GameController controller)
     {
-        OnSolve -= controller.OnPuzzleSolve;
+        OnSolve -= controller.OnPuzzleSolved;
         OnFailed -= controller.OnPuzzleFailed;
         OnSelected -= controller.OnPuzzleSelected;
     }

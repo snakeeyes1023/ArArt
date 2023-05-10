@@ -3,6 +3,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Gère tous les sons du jeu
+/// </summary>
 public class SoundController : MonoBehaviour
 {
     public Sounds soundsAvailable;
@@ -14,6 +17,7 @@ public class SoundController : MonoBehaviour
 
     private void Awake()
     {
+        // singleton
         if (_instance != null && _instance != this)
         {
             Destroy(this.gameObject);
@@ -24,10 +28,15 @@ public class SoundController : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// Joue le son selectionné
+    /// </summary>
+    /// <param name="sound">Le son.</param>
     public void PlaySound(Func<Sounds, AudioClip> sound)
     {
         var selectedClip = sound(soundsAvailable);
 
+        // Valide que le son exist et que l'usager à cocher qu'il voulait avoir des sons.
         if (selectedClip != null
             && PlayerPrefs.GetInt("Music") == 1)
         {
@@ -40,7 +49,9 @@ public class SoundController : MonoBehaviour
     }
 }
 
-
+/// <summary>
+/// Contient les sons disponibles
+/// </summary>
 [Serializable]
 public class Sounds
 {

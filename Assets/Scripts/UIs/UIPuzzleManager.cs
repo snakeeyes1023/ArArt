@@ -5,6 +5,10 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
+
+/// <summary>
+/// Script qui gère l'UI des puzzles (la popup)
+/// </summary>
 public class UIPuzzleManager : MonoBehaviour
 {
     public TextMeshProUGUI QuestionNumber;
@@ -22,9 +26,13 @@ public class UIPuzzleManager : MonoBehaviour
 
     private void Update()
     {
-        PopupPanel.gameObject.SetActive(currentPuzzle != null);
+        PopupPanel.gameObject.SetActive(currentPuzzle != null); // optimisation si le projet va plus loin
     }
 
+    /// <summary>
+    /// Lorsque le bouton de confirmation est cliqué on vérifie la réponse 
+    /// Si la réponse est valide il s'occupe de fermer le puzzle
+    /// </summary>
     private void OnConfirmButtonClicked()
     {
         if (Choices.GetSelectedAnswer() is AnswerChoice choice 
@@ -32,24 +40,32 @@ public class UIPuzzleManager : MonoBehaviour
         {
             ClearContext();
         }
-        else
-        {
-            Debug.Log("Wrong!");
-        }
     }
 
+    /// <summary>
+    /// Affiche le puzzle dans la popup
+    /// </summary>
+    /// <param name="puzzle">The puzzle.</param>
     public void ChangeCurrentPuzzle(Puzzle puzzle)
     {
         currentPuzzle = puzzle;
-        Question question = currentPuzzle.GetSelectedQuestion();
 
+        if (currentPuzzle.GetSelectedQuestion() is Question question)
+        {
+            QuestionNumber.text = question.QuestionText;
+            QuestionText.text = puzzle.GetPuzzleMessage();
 
-        QuestionNumber.text = question.QuestionText;
-        QuestionText.text = puzzle.GetPuzzleMessage();
-
-        Choices.SetQuestion(question);
+            Choices.SetQuestion(question);
+        }
+        else
+        {
+            Debug.LogError("Aucune question n'a été sélectionnée", puzzle);
+        }
     }
 
+    /// <summary>
+    /// Ferme le puzzle de la popup
+    /// </summary>
     public void ClearContext()
     {
         currentPuzzle = null;
